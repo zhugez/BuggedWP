@@ -44,7 +44,7 @@ BuggedWP is a full-stack web application designed to analyze WordPress plugins f
 
 ### Prerequisites
 - Node.js 18+
-- npm or yarn
+- pnpm (recommended package manager)
 - Python 3.8+ (for backend development)
 
 ### Installation
@@ -58,8 +58,8 @@ BuggedWP is a full-stack web application designed to analyze WordPress plugins f
 2. **Setup Frontend**
    ```bash
    cd frontend
-   npm install
-   npm run dev
+   pnpm install
+   pnpm dev
    ```
 
 3. **Access the application**
@@ -71,10 +71,10 @@ BuggedWP is a full-stack web application designed to analyze WordPress plugins f
 ### Frontend Development
 ```bash
 cd frontend
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run lint         # Run ESLint
-npm run typecheck    # TypeScript type checking
+pnpm dev             # Start development server
+pnpm build           # Build for production
+pnpm lint            # Run ESLint
+pnpm typecheck       # TypeScript type checking
 ```
 
 ### Project Structure

@@ -34,12 +34,15 @@ This project follows a **microservices-like architecture** with clear separation
 npx create-next-app@latest bugged-wp --typescript --tailwind --app
 cd bugged-wp
 
+# Package Manager: Using pnpm for performance and efficiency
+pnpm install         # Install dependencies (faster than npm/yarn)
+
 # Development
-npm run dev          # Start development server (http://localhost:3000)
-npm run build        # Production build
-npm run start        # Start production server
-npm run lint         # ESLint checking
-npm run typecheck    # TypeScript type checking
+pnpm dev             # Start development server (http://localhost:3000)
+pnpm build           # Production build
+pnpm start           # Start production server
+pnpm lint            # ESLint checking
+pnpm typecheck       # TypeScript type checking
 ```
 
 ### Backend (Python FastAPI)
